@@ -5,11 +5,10 @@ $name= 'Giftted';
 <style>
     @media only screen and (max-width: 767px) {
         .cc_div {
-            display: none;
-            /* Hide the cookie box on small screens */
+            display: none !important; /* Hide the cookie consent box on small screens */
         }
-        #exchange{
-            display: none;
+        #exchange {
+            display: none !important; /* Hide the exchange section */
         }
     }
 </style>
@@ -50,6 +49,7 @@ $name= 'Giftted';
     <meta property="twitter:image" content=storage/uploads/metaevent/1681971772_meta_image.png>
     <!-- Favicon icon -->
     <link rel="icon" href="storage/uploads/logo/favicon.png?1751567121" type="image" sizes="16x16">
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 
 
     <link rel="stylesheet" href="assets/css/plugins/style.css">

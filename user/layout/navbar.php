@@ -57,15 +57,15 @@
                     </li>
 
 
-                    <!-- <li class="dash-item  ">
-                        <a href="https://demo.workdo.io/accountgo-saas/productservice/index" class="dash-link ">
+                    <li class="dash-item  ">
+                        <a href="../user/reminder.php" class="dash-link ">
                             <span class="dash-micon"><i class="ti ti-shopping-cart"></i></span>
-                            <span class="dash-mtext">Product &amp; Services</span>
+                            <span class="dash-mtext">Reminders</span>
                         </a>
                     </li>
 
 
-                    <li class="dash-item ">
+                   <!--  <li class="dash-item ">
                         <a href="https://demo.workdo.io/accountgo-saas/productstock" class="dash-link ">
                             <span class="dash-micon"><i class="ti ti-box"></i></span>
                             <span class="dash-mtext">Product Stock</span>
