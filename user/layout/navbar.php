@@ -3,7 +3,7 @@
             <div class="m-header main-logo">
                 <a href="" class="b-brand">
                 
-                <img src="https://demo.workdo.io/accountgo-saas/storage/uploads/logo/logo-dark.png?1751567121" alt="AccountGo SaaS"
+                <img src="storage/uploads/logo/logo-dark.png?1751567121" alt="#"
                     class="logo logo-lg" />
 
             </a>
@@ -15,31 +15,11 @@
                     <li class="dash-item ">
 
                         <li class="dash-item  active">
-                            <a href="https://demo.workdo.io/accountgo-saas" class="dash-link"><span class="dash-micon"><i
+                            <a href="" class="dash-link"><span class="dash-micon"><i
                                             class="ti ti-home"></i></span><span class="dash-mtext">Dashboard</span></a>
                         </li>
 
                     </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <li class="dash-item dash-hasmenu ">
                         <a href="#!" class="dash-link "><span class="dash-micon"><i
                                         class="ti ti-users"></i></span><span
@@ -65,7 +45,7 @@
                     </li>
 
 
-                   <!--  <li class="dash-item ">
+                     <li class="dash-item ">
                         <a href="https://demo.workdo.io/accountgo-saas/productstock" class="dash-link ">
                             <span class="dash-micon"><i class="ti ti-box"></i></span>
                             <span class="dash-mtext">Product Stock</span>
@@ -73,7 +53,7 @@
                     </li>
 
 
-                    <li class="dash-item ">
+                    <!--<li class="dash-item ">
                         <a href="https://demo.workdo.io/accountgo-saas/customer" class="dash-link ">
                             <span class="dash-micon"><i class="ti ti-user-plus"></i></span>
                             <span class="dash-mtext">Customer</span>

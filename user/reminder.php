@@ -25,115 +25,12 @@
             <div class="row">
                 <!-- [ sample-page ] start -->
                 <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-xxl-7">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="mt-1 mb-0">Account Balance</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Bank</th>
-                                                    <th>Holder Name</th>
-                                                    <th>Balance</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="font-style">
-                                                    <td>-</td>
-                                                    <td>Cash</td>
-                                                    <td>$465.35</td>
-                                                </tr>
-                                                <tr class="font-style">
-                                                    <td>ROUNDBANK</td>
-                                                    <td>Benjamin Adams</td>
-                                                    <td>$5,220.00</td>
-                                                </tr>
-                                                <tr class="font-style">
-                                                    <td>COBIZ BANK</td>
-                                                    <td>Chisom Latifat</td>
-                                                    <td>$6,990.00</td>
-                                                </tr>
-                                                <tr class="font-style">
-                                                    <td>US BANK, NA</td>
-                                                    <td>Earl Hane MD</td>
-                                                    <td>$5,180.00</td>
-                                                </tr>
-                                                <tr class="font-style">
-                                                    <td>Charity BANK</td>
-                                                    <td>Deborah Hawkins</td>
-                                                    <td>$800.00</td>
-                                                </tr>
-                                                <tr class="font-style">
-                                                    <td>Caldwell BANK</td>
-                                                    <td>Pearl Reed</td>
-                                                    <td>$-125.50</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-
-                        <div class="col-xxl-7">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="mt-1 mb-0">Latest Income</h5>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Date</th>
-                                                    <th>Customer</th>
-                                                    <th>Amount Due</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Mar 12, 2017</td>
-                                                    <td>Customer</td>
-                                                    <td>$1,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Nov 18, 2025</td>
-                                                    <td>Ida F. Mullen</td>
-                                                    <td>$100.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Jul 24, 2025</td>
-                                                    <td>Protiong</td>
-                                                    <td>$800.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Oct 16, 2025</td>
-                                                    <td>Remedios Hewitt</td>
-                                                    <td>$400.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Jan 8, 2025</td>
-                                                    <td>Isaac Vang</td>
-                                                    <td>$200.00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       
+                    <div class="row">                                          
                         <div class="col-xxl-12">
                             <div class="card">
                                 <div class="card-header">
 
-                                    <h5>Reminders</h5>
+                                    <h5>Today Reminders</h5>
                                 </div>
                                 <div class="card-body">
                                     <div class="card border-primary border-2 border-bottom-0 border-start-0 border-end-0">
@@ -143,34 +40,17 @@
                                                 <span>
                                                     <span class="row align-items-center mt-3">
                                                         <span class="col">
-                                                            <span class="text-muted text-sm">Name</span>
-                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Invoice Goal</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Type</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                Invoice </h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Duration</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                2025-01-01 To 2025-12-31
-                                                            </h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Target</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                $16,875.78 of $50,000.00
-                                                            </h6>
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Create Budget Listing for James</h6>
                                                         </span>
                                                         <span class="col">
                                                             <span class="text-muted text-sm">Progress</span>
                                                             <h6 class="mb-3 mb-sm-0">
-                                                                33.75%
+                                                                100%
                                                             </h6>
                                                             <div class="progress mb-0">
                                                                 <div class="progress-bar bg-primary"
-                                                                    style="width: 33.75%">
+                                                                    style="width: 100%">
                                                                 </div>
                                                             </div>
                                                         </span>
@@ -187,34 +67,17 @@
                                                 <span>
                                                     <span class="row align-items-center mt-3">
                                                         <span class="col">
-                                                            <span class="text-muted text-sm">Name</span>
-                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Bill Goal</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Type</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                Bill</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Duration</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                2025-01-01 To 2025-11-30
-                                                            </h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Target</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                $4,871.34 of $30,000.00
-                                                            </h6>
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Your current purchase is going above your yearly budget</h6>
                                                         </span>
                                                         <span class="col">
                                                             <span class="text-muted text-sm">Progress</span>
                                                             <h6 class="mb-3 mb-sm-0">
-                                                                16.24%
+                                                                100%
                                                             </h6>
                                                             <div class="progress mb-0">
                                                                 <div class="progress-bar bg-primary"
-                                                                    style="width: 16.24%">
+                                                                    style="width: 100%">
                                                                 </div>
                                                             </div>
                                                         </span>
@@ -231,34 +94,60 @@
                                                 <span>
                                                     <span class="row align-items-center mt-3">
                                                         <span class="col">
-                                                            <span class="text-muted text-sm">Name</span>
-                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Revenu Goal</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Type</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                Revenue</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Duration</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                2024-11-20 To 2025-10-31
-                                                            </h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Target</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                $4,860.00 of $60,000.00
-                                                            </h6>
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Review stride's Yearly Budget and analyis their expensis</h6>
                                                         </span>
                                                         <span class="col">
                                                             <span class="text-muted text-sm">Progress</span>
                                                             <h6 class="mb-3 mb-sm-0">
-                                                                8.10%
+                                                                100%
                                                             </h6>
                                                             <div class="progress mb-0">
                                                                 <div class="progress-bar bg-primary"
-                                                                    style="width: 8.10%">
+                                                                    style="width: 100%">
+                                                                </div>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="row">                                          
+                        <div class="col-xxl-12">
+                            <div class="card">
+                                <div class="card-header">
+
+                                    <h5>Tuesday Reminders</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card border-primary border-2 border-bottom-0 border-start-0 border-end-0">
+                                        <div class="card-body">
+                                            <div class="form-check">
+                                                <label class="form-check-label d-block" for="customCheckdef1">
+                                                <span>
+                                                    <span class="row align-items-center mt-3">
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">NNPC Invoice is Due</h6>
+                                                        </span>
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Progress</span>
+                                                            <h6 class="mb-3 mb-sm-0">
+                                                                69.67%
+                                                            </h6>
+                                                            <div class="progress mb-0">
+                                                                <div class="progress-bar bg-primary"
+                                                                    style="width: 69.67%">
                                                                 </div>
                                                             </div>
                                                         </span>
@@ -275,34 +164,59 @@
                                                 <span>
                                                     <span class="row align-items-center mt-3">
                                                         <span class="col">
-                                                            <span class="text-muted text-sm">Name</span>
-                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Payment Goal</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Type</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                Payment</h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Duration</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                2024-11-01 To 2025-11-28
-                                                            </h6>
-                                                        </span>
-                                                        <span class="col">
-                                                            <span class="text-muted text-sm">Target</span>
-                                                            <h6 class="mb-3 mb-sm-0">
-                                                                $3,520.00 of $70,000.00
-                                                            </h6>
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Analysis Of Monthly Budget</h6>
                                                         </span>
                                                         <span class="col">
                                                             <span class="text-muted text-sm">Progress</span>
                                                             <h6 class="mb-3 mb-sm-0">
-                                                                5.03%
+                                                                58.67%
                                                             </h6>
                                                             <div class="progress mb-0">
                                                                 <div class="progress-bar bg-primary"
-                                                                    style="width: 5.03%">
+                                                                    style="width: 58.67%">
+                                                                </div>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </label>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="row">                                          
+                        <div class="col-xxl-12">
+                            <div class="card">
+                                <div class="card-header">
+
+                                    <h5>Sunday Reminders</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card border-primary border-2 border-bottom-0 border-start-0 border-end-0">
+                                        <div class="card-body">
+                                            <div class="form-check">
+                                                <label class="form-check-label d-block" for="customCheckdef1">
+                                                <span>
+                                                    <span class="row align-items-center mt-3">
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">NNPC Invoice is Due</h6>
+                                                        </span>
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Progress</span>
+                                                            <h6 class="mb-3 mb-sm-0">
+                                                                16.67%
+                                                            </h6>
+                                                            <div class="progress mb-0">
+                                                                <div class="progress-bar bg-primary"
+                                                                    style="width: 16.67%">
                                                                 </div>
                                                             </div>
                                                         </span>
@@ -312,6 +226,33 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="card border-primary border-2 border-bottom-0 border-start-0 border-end-0">
+                                        <div class="card-body">
+                                            <div class="form-check">
+                                                <label class="form-check-label d-block" for="customCheckdef1">
+                                                <span>
+                                                    <span class="row align-items-center mt-3">
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Signature Reminder</span>
+                                                            <h6 class="text-nowrap mb-3 mb-sm-0">Analysis Of Monthly Budget</h6>
+                                                        </span>
+                                                        <span class="col">
+                                                            <span class="text-muted text-sm">Progress</span>
+                                                            <h6 class="mb-3 mb-sm-0">
+                                                                16.67%
+                                                            </h6>
+                                                            <div class="progress mb-0">
+                                                                <div class="progress-bar bg-primary"
+                                                                    style="width: 16.67%">
+                                                                </div>
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </label>
+                                            </div>
+                                        </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>

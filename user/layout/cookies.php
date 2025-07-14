@@ -1,7 +1,4 @@
-<?php
-// layout/cookies.php - this can contain your custom HTML or styles for cookies (optional)
-include('layout/cookies.php');
-?>
+
 
 <!-- Cookie Consent Script -->
 <script>
