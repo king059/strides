@@ -191,11 +191,11 @@ $name= 'Giftted';
                                 <i class="ti ti-plus "></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownBookmark">
-                                <a class="dropdown-item" href="#" data-url="productservice/create" data-ajax-popup="true" data-title="Create New Reminder"><i
+                                <a class="dropdown-item" href="#" id="openReminderModal" data-url="user/reminder" data-ajax-popup="true" data-title="Create New Reminder"><i
                                             class="ti ti-shopping-cart"></i>Create New Reminder</a>
-                                <!-- <a class="dropdown-item" href="#" data-size="lg" data-url="customer/create" data-ajax-popup="true" data-title="Create New Customer"><i
-                                            class="ti ti-user"></i>Create New Customer</a>
-                                <a class="dropdown-item" href="#" data-size="lg" data-url="vender/create" data-ajax-popup="true" data-title="Create New Vendor"><i
+                                <a class="dropdown-item" href="#" data-size="lg" data-url="customer/create" data-ajax-popup="true" data-title="Create New Expense"><i
+                                            class="ti ti-user"></i>Create New Expense</a>                                            
+                                <a class="dropdown-item" href="#" id="openVendorModal" data-size="lg" data-url="vender/create" data-ajax-popup="true" data-title="Create New Vendor"><i
                                             class="ti ti-note"></i>Create New Vendor</a>
                                 <a class="dropdown-item" href="proposal/create/0"><i
                                             class="ti ti-file"></i>Create New Proposal</a>
@@ -203,10 +203,8 @@ $name= 'Giftted';
                                             class="ti ti-file-invoice"></i>Create New Invoice</a>
                                 <a class="dropdown-item" href="bill/create/0"><i
                                             class="ti ti-report-money"></i>Create New Bill</a>
-                                <a class="dropdown-item" href="#" data-url="bank-account/create" data-ajax-popup="true" data-title="Create New Account"><i
-                                            class="ti ti-building-bank"></i>Create New Account</a>
                                 <a class="dropdown-item " href="#" data-url="goal/create" data-ajax-popup="true" data-title="Create New Goal"><i
-                                            class="ti ti-target "></i>Create New Goal</a> -->
+                                            class="ti ti-target "></i>Create New Goal</a>
                             </div>
                         </div>
                     </li>

@@ -39,6 +39,21 @@
     <script src="assets/js/plugins/main.min.js"></script>
     <script src="assets/js/plugins/flatpickr.min.js"></script>
 
+<script>
+document.getElementById('openVendorModal').addEventListener('click', function(e) {
+  e.preventDefault();
+  var modal = new bootstrap.Modal(document.getElementById('vendorModal'));
+  modal.show();
+});
+</script>
+<script>
+document.getElementById('openReminderModal').addEventListener('click', function(e) {
+  e.preventDefault();
+  var modal = new bootstrap.Modal(document.getElementById('reminderModal'));
+  modal.show();
+});
+</script>
+
 
     <script>
         var file_size = "2048000";
