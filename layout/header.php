@@ -106,3 +106,28 @@
         </div>
     </header>
     <!-- End Header -->
+     <style>
+
+@media (min-width: 780px) {
+  .custom-show {
+    display: block !important;
+  }
+}
+@media (max-width: 779.98px) {
+  .custom-show {
+    display: none !important;
+  }
+}
+
+/* Div 2: show only below 780px */
+@media (min-width: 780px) {
+  .custom-hide {
+    display: none !important;
+  }
+}
+@media (max-width: 779.98px) {
+  .custom-hide {
+    display: block !important;
+  }
+}
+     </style>

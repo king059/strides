@@ -3,7 +3,7 @@
         <div class="section overflow-visible pb-0">
             <div class="r-container">
                 <div class="subscribe-container position-relative overflow-hidden rounded-4"
-                    style="background-image: url(../assets/image/BG.jpg);">
+                    style="background-image: url(../assets/image/vara.webp); background: opacity 20%;;">
                     <div class="bg-overlay"></div>
                     <div class="row row-cols-xl-2 row-cols-1 p-5 position-relative" style="z-index: 2;">
                         <div class="col d-flex align-items-center">
@@ -64,9 +64,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-xl-5 mb-3">
-                            <div class="row row-cols-xl-2 row-cols-1">
-                                <div class="col-xl-5 mb-3">
+                        <div class="col-12 col-xl-5 mb-3">
+                            <div class="row row-cols-xl-2 row-cols-2">
+                                <div class="col-6 col-xl-5 mb-3">
                                     <div class="d-flex flex-column gap-3">
                                         <div class="pb-2 w-max-content">
                                             <h5 class="font-1">PAGES</h5>
@@ -99,7 +99,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-xl-7 mb-3">
+                                <div class="col-6 col-xl-7 mb-3">
                                     <div class="d-flex flex-column gap-3">
                                         <div class="pb-2 w-max-content">
                                             <h5 class="font-1">FEATURES</h5>
@@ -134,7 +134,7 @@
                             </div>
                         </div>
 
-                        <div class="col col-xl-3 mb-3">
+                        <div class="col-12 col-xl-3 mb-3">
                             <div class="d-flex flex-column gap-3">
                                 <div class="pb-2 w-max-content pe-3">
                                     <h5 class="font-1">SERVICES</h5>

@@ -55,7 +55,7 @@
 :root {
     --text-color: #FFFFFF;
     --text-color-2: #E9E9E9;
-    --gray-color: #F3F3F3;
+    --gray-color: #dbdada;
     --accent-color: #0a3352;
     --accent-color-1: #001f3e;
     --accent-color-2: #4169E1;
@@ -267,7 +267,7 @@ a {
 
     .sect {
         
-        background-image: url('../assets/image/person-working.jpg');
+        background-image: url('../image/back-ground.jpg') !important;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -488,6 +488,9 @@ a {
 .bg-accent-colors {
     background-color: var(--slide-1);
 }
+.bg-accent-colorss {
+    background-color: var(--accent-color-3);
+}
 
 
 .Slide1-accent-color {
@@ -511,6 +514,10 @@ a {
 
 .bg-accent-3 {
     background-color: var(--accent-color-3);
+
+}
+.bg-accent-30 {
+    background-color: var(--text-color-2);
 
 }
 
@@ -590,6 +597,18 @@ a {
     color: var(--accent-color-2);
 }
 
+.btn-accents {
+    background-color: var(--text-color-2);
+    color: var(--accent-color-2);
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+
+.btn-accents:hover {
+    background-color: transparent;
+    border-color: var(--text-color-2);
+    color: var(--text-color-2);
+}
 .btn-accent-outline {
     background-color: transparent;
     border: 1px solid var(--accent-color-2);
@@ -1656,5 +1675,20 @@ a {
     }
 
 
+}
+.my-div {
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .hide-xs {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hide-sm {
+        display: none !important;
+    }
 }
 

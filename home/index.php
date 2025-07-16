@@ -25,7 +25,7 @@ include ('../layout/header.php');
           <div class="row row-cols-xl-2 row-cols-1 align-items-center">
             <div class="col col-xl-7 px-4">
               <div class="d-flex flex-column gap-4 pe-xl-5">
-                <h2 class="font-1">Smart Finance, Audit & Payroll. All in One Place. .</h2>
+                <h2 class="font-1">Elevated Finance, Premier Auditing, Seamless Payroll —All in One Platform.</h2>
                 <p>Built for SMEs, finance teams, and auditors who want more clarity, less chaos. </p>
                 <div class="d-flex flex-xl-row flex-column gap-3">
                   <a href="about.html" class="btn btn-accent px-5 py-3 rounded-pill">Try Stride Now</a>
@@ -49,7 +49,7 @@ include ('../layout/header.php');
           <div class="row row-cols-xl-2 row-cols-1 align-items-center">
             <div class="col col-xl-7 px-4">
               <div class="d-flex flex-column gap-4 pe-xl-5">
-                <h2 class="slideh1">Built for Accuracy. Trusted for Compliance.</h2>
+                <h2 class="slideh1">Engineered for Precision. Trusted for Unrivaled Compliance.</h2>
                 <p>Ensure every report, payroll, and audit meets the highest standards—without slowing you down.</p>
                 <div class="d-flex flex-xl-row flex-column gap-3">
                     <a href="about.html" ><button class="btn slide-btn-accent px-5 py-3 rounded-pill">About Us</button></a>
@@ -73,7 +73,7 @@ include ('../layout/header.php');
           <div class="row row-cols-xl-2 row-cols-1 align-items-center">
             <div class="col col-xl-7 px-4">
               <div class="d-flex flex-column gap-4 pe-xl-5">
-                <h2 class="font-1">Financial Tools That Grow With You.</h2>
+                <h2 class="font-1">Financial Tools That Evolve With You.</h2>
                 <p>Whether you’re starting out or scaling up, get everything you need to manage money, people, and progress in one dashboard.</p>
                 <div class="d-flex flex-xl-row flex-column gap-3">
                   <a href="about.html" class="btn btn-accent px-5 py-3 rounded-pill">About Us</a>
@@ -82,7 +82,7 @@ include ('../layout/header.php');
               </div>
             </div>
             <div class="col col-xl-5 ps-0 mt-5">
-              <img src="./assets/image/Image1.png" alt="" width="650vh" height="auto" class="img-fluid banner-img">
+              <img src="../assets/image/Image1.png" alt="" width="650vh" height="auto" class="img-fluid banner-img">
             </div>
           </div>
         </div>
@@ -99,12 +99,10 @@ include ('../layout/header.php');
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
   </button>
 </section>
-    <div class="section py-5 bg-accent-color">
-    </div>
         <!-- Section About Us -->
-        <div class="section pt-0 bg-accent-color">
+        <div class="section pt-10 bg-accent-color d-none d-md-block custom-show">
             <div class="r-container">
-                <div class="row row-cols-xl-2 row-cols-1 align-items-center">
+                <div class="row pt-0 row-cols-xl-2 row-cols-1 align-items-center">
                     <div class="col col-xl-5 ps-0 mt-5 mb-5">
                         <div class="position-relative ps-xl-0 ps-0 mb-3">
                             <div class="mt-0 pb-5 px-lg-5 px-xl-5 px-3">
@@ -171,6 +169,94 @@ include ('../layout/header.php');
                 </div>
             </div>
         </div>
+        <!--mobile about-->
+        <div class="section pt-10 bg-accent-colorss d-lg-none d-xl-block d-xl-none custom-hide">
+            <div class="r-container">
+                <div class="row row-cols-xl-2 row-cols-1 align-items-center">
+                    <div class="col col-xl-5 ps-0 mt-5 mb-5">
+                        <div class="position-relative ps-xl-0 ps-0 mb-3">
+                            <!-- <div class="mt-0 pb-5 px-lg-5 px-xl-5 px-3">
+                                <img src="../assets/image/image-450x675-10.jpg" alt="" class="img-fluid rounded-4" width="100%">
+                            </div> -->
+                            <div class="floating-bottom position-responsive mb-3">
+                                <div
+                                    class="d-flex align-items-center flex-column px-4 ps-xl-4 py-3 rounded-4 bg-white text-center shadow-xl">
+                                    <h3 class="font-1 m-0 lh-1 fw-bold accent-color-2">10+</h3>
+                                    <span class="accent-color">Years Experience</span>
+                                </div>
+                            </div>
+                            <div class="floating-bottom-1 position-responsive align-items-center">
+                                <div
+                                    class="d-flex flex-row align-items-center  gap-3 px-4 ps-xl-4 py-4 rounded-4 bg-white shadow-xl">
+                                    <div class="customer-item ">
+                                        <img src="../assets/image/testi3.jpg" class="img-fluid" alt="" width="100">
+                                    </div>
+                                    <div class="d-flex flex-column gap-2">
+                                        <span class="font-1 accent-color">“Let’s Talk Finance Without Stress”
+                                        </span>
+                                        <span class="accent-color-2" style="font-size: 12px;">Richard William,
+                                            CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-7 px-4">
+                        <div class="d-flex flex-column gap-3 pe-xl-5 text-center text-xl-start">
+                            <h6 class="font-1">About Us</h6>
+                            <div class="d-flex flex-xl-row flex-column gap-3">
+                                <div class="col col-xl-6 mb-3">
+                                    <div class="d-flex flex-column bg-accent-30 gap-2 p-5 h-100 rounded-4">
+                                        <div class="mb-2">
+                                             <img src="../assets/icons/circle-half-dotted-check.svg" alt="Icon" class="icons-img accent-color-3 mt-3" />                                             
+                                        </div>
+                                        <h4 class="font-1 accent-color-3">WHO WE ARE</h4>
+                                        <p class="font-1 accent-color-3">
+                                           At Stride, we believe finance, audit, and payroll should be simple, smart, and stress-free. We're a 
+                                            passionate team of finance professionals, designers, and engineers building a platform that solves 
+                                            real problems faced by SMEs, finance teams, and auditors daily.<br> 
+                                            Stride was created out of the need to reduce audit delays, eliminate financial confusion, and 
+                                            make essential financial management accessible to everyone — from founders and freelancers to 
+                                            accountants and auditors. 
+                                        </p>
+                                    </div>
+                                </div>
+                             <div class="col col-xl-6 mb-3">
+                                    <div class="d-flex flex-column bg-accent-30 gap-2 p-5 h-100 rounded-4">
+                                        <div class="mb-2">
+                                             <img src="../assets/icons/circle-half-dotted-check.svg" alt="Icon" class="icons-img accent-color-2 mt-3" />                                             
+                                        </div>
+                                        <h4 class="font-1 accent-color-3">Our Vision</h4>
+                                        <p class="font-1 accent-color-3">
+                                           To redefine how small and growing businesses manage their finances—by making smart, secure, 
+                                        and seamless financial operations accessible to all. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-xl-6 mb-3">
+                                    <div class="d-flex flex-column bg-accent-30 gap-2 p-5 h-100 rounded-4">
+                                        <div class="mb-2">
+                                             <img src="../assets/icons/circle-half-dotted-check.svg" alt="Icon" class="icons-img accent-color-3 mt-3" />                                             
+                                        </div>
+                                        <h4 class="font-1 accent-color-3">Our Mision</h4>
+                                        <p class="font-1 accent-color-3">
+                                           To empower SMEs, finance teams, and auditors with intuitive tools that simplify payroll, streamline audits, and unlock clarity 
+                                        in every financial decision—so they can focus on growth, not paperwork. 
+                                        </p>
+                                    </div>
+                                </div>
+                                </div> 
+                            <div>
+                                <a href="contact.php" class="btn btn-accents px-5 py-3 rounded-pill">View More</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--mobile about end-->
 
         <!-- Section Services -->
         <div class="section position-relative" style="background-color:#f0eff4;">
@@ -436,26 +522,26 @@ include ('../layout/header.php');
         <!-- Section Counter -->
         <div class="section py-5 bg-accent-3">
             <div class="r-container py-5">
-                <div class="row row-cols-xl-4 row-cols-1 text-center text-white">
-                    <div class="col mb-3">
+                <div class="row row-cols-xl-4 row-cols-2 text-center text-white">
+                    <div class="col-6 mb-3">
                         <h3 class="font-1 fw-bold accent-color-2">20<sup>+</sup></h3>
                         <span>Years Experience</span>
                     </div>
-                    <div class="col mb-3">
+                    <div class="col-6 mb-3">
                         <h3 class="font-1 fw-bold accent-color-2">250<sup>+</sup></h3>
                         <span>Statisfied Customers</span>
                     </div>
-                    <div class="col mb-3">
+                    <div class="col-6 mb-3">
                         <h3 class="font-1 fw-bold accent-color-2">5<sup>+</sup></h3>
                         <span>Branch Office</span>
                     </div>
-                    <div class="col mb-3">
+                    <div class="col-6 mb-3">
                         <h3 class="font-1 fw-bold accent-color-2">80<sup>+</sup></h3>
                         <span>Partner Company</span>
                     </div>
                 </div>
             </div>
-        </div><br>
+        </div>
 
         <!-- Blog -->
         <!-- <div class="section bg-accent-color">
@@ -506,7 +592,7 @@ include ('../layout/header.php');
         </div> -->
 
         <!-- Testimonials -->
-        <div class="section bg-accent-color" style="background-image: url(../assets/image/BG.jpg);">
+        <div class="section bg-accent-color-2" style="background-image: url(../assets/image/vara.webp);">
             <div class="r-container">
                 <div class="d-flex justify-content-center">
                     <div class="row row-cols-xl-2 row-cols-1 w-100">
