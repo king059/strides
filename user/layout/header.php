@@ -1,4 +1,8 @@
 <?php 
+error_reporting(E_ALL); // Report all types of errors
+ini_set('display_errors', 1); // Show errors on screen
+
+
 $name= 'Giftted';
 ?>
 
@@ -18,7 +22,7 @@ $name= 'Giftted';
 
 <head>
     <title>
-        AccountGo SaaS - Dashboard
+        Stride | Dashboard
     </title>
 
     <script src="js/html5shiv.js"></script>
@@ -31,21 +35,21 @@ $name= 'Giftted';
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content=AccountGo SaaS>
-    <meta name="description" content=AccountGo SaaS is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
+    <meta name="title" content="Stride | Dashboard">
+    <meta name="description" content=Stride  is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content=#>
-    <meta property="og:title" content=AccountGo SaaS>
-    <meta property="og:description" content=AccountGo SaaS is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
+    <meta property="og:title" content=Stride >
+    <meta property="og:description" content=Stride  is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
     <meta property="og:image" content=1681971772_meta_image.png>
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content=#>
-    <meta property="twitter:title" content=AccountGo SaaS>
-    <meta property="twitter:description" content=AccountGo SaaS is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
+    <meta property="twitter:title" content=#>
+    <meta property="twitter:description" content=Stride  is an account management software that facilitates ease in revenue calculation by keeping a tab on all the accountancy matters of business.>
     <meta property="twitter:image" content=storage/uploads/metaevent/1681971772_meta_image.png>
     <!-- Favicon icon -->
     <link rel="icon" href="storage/uploads/logo/favicon.png?1751567121" type="image" sizes="16x16">
@@ -59,6 +63,8 @@ $name= 'Giftted';
 
     <!--bootstrap switch-->
     <link rel="stylesheet" href="assets/css/plugins/bootstrap-switch-button.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 
     <!-- font css -->
@@ -163,17 +169,19 @@ $name= 'Giftted';
                                                             <img src="storage/uploads/avatar/user_2.jpg"
                                     class="img-fluid rounded border-2 border border-primary">
                                                     </span>
-                        <span class="hide-mob ms-2">Hi, <?php echo $name ?>!</span>
-                        <i class="ti ti-chevron-down drp-arrow nocolor hide-mob"></i>
+                        <span class="hide-mob ms-2 mr-2">Hi, <?php echo $name ?>!</span>
+                        <span aria-label="Toggle navigation" onclick="toggleIcon(this)">
+                            <img src="../assets/icons/chevron-right.svg" alt="Icon" class="icons-color"/>
+                        </span>
                     </a>
                         <div class="dropdown-menu dash-h-dropdown">
 
                             <a href="profile" class="dropdown-item">
-                                <i class="ti ti-user"></i> <span>My Profile</span>
+                                <img src="../assets/icons/user.svg" alt="Icon" class="icons-color"/><span>My Profile</span>
                             </a>
 
                             <a href="logout" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();" class="dropdown-item">
-                                <i class="ti ti-power"></i>
+                                <img src="../assets/icons/arrow-door-out-3.svg" alt="Icon" class="icons-color"/>
                                 <span>Logout</span>
                             </a>
                             <form id="frm-logout" action="logout" method="POST" class="d-none">
@@ -188,13 +196,13 @@ $name= 'Giftted';
                     <li class="dropdown dash-h-item ml-2">
                         <div class="dropdown notification-icon">
                             <a class="dash-head-link dropdown-toggle arrow-none ms-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                <i class="ti ti-plus "></i>
+                                <span onclick="toggleIcons(this)"><img src="../assets/icons/chevron-expand-y.svg" alt="Icon" class="icons-color"/></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownBookmark">
-                                <a class="dropdown-item" href="#" id="openReminderModal" data-url="user/reminder" data-ajax-popup="true" data-title="Create New Reminder"><i
-                                            class="ti ti-shopping-cart"></i>Create New Reminder</a>
-                                <a class="dropdown-item" href="#" data-size="lg" data-url="customer/create" data-ajax-popup="true" data-title="Create New Expense"><i
-                                            class="ti ti-user"></i>Create New Expense</a>                                            
+                                <a class="dropdown-item" href="#" id="openReminderModal" data-url="user/reminder" data-ajax-popup="true" data-title="Create New Reminder">
+                                    <span><img src="../assets/icons/ticket-4.svg" alt="Icon" class="icons-color mr-2"/></span>Create New Reminder</a>
+                                <a class="dropdown-item" href="./add-expense.php" data-size="lg" id="openexpense" data-url="user/expense" data-title="Create New Expense">
+                                    <i class="ti ti-user"></i> Create New Expense</a>                                           
                                 <a class="dropdown-item" href="#" id="openVendorModal" data-size="lg" data-url="vender/create" data-ajax-popup="true" data-title="Create New Vendor"><i
                                             class="ti ti-note"></i>Create New Vendor</a>
                                 <a class="dropdown-item" href="proposal/create/0"><i
@@ -222,9 +230,9 @@ $name= 'Giftted';
                 <ul class="list-unstyled">
                     <li class="dropdown dash-h-item drp-language">
                         <a class="dash-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <i class="ti ti-world nocolor"></i>
+                        <img src="../assets/icons/language.svg" alt="Icon" class="icons-color"/>
                         <span class="drp-text hide-mob">English</span>
-                        <i class="ti ti-chevron-down drp-arrow nocolor"></i>
+                        <img src="../assets/icons/chevron-down.svg" alt="Icon" class="icons-color"/>
                     </a>
                         <div class="dropdown-menu dash-h-dropdown dropdown-menu-end">
 

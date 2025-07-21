@@ -1,3 +1,4 @@
+ <?php include("modals.php"); ?>
  <footer class="dash-footer">
         <div class="footer-wrapper">
             <div class="py-1">
@@ -34,6 +35,7 @@
     <script src="assets/js/plugins/bootstrap-switch-button.min.js"></script>
 
 
+
     <!-- Apex Chart -->
     <script src="assets/js/plugins/apexcharts.min.js"></script>
     <script src="assets/js/plugins/main.min.js"></script>
@@ -55,6 +57,29 @@ document.getElementById('openReminderModal').addEventListener('click', function(
 </script>
 
 
+
+<script>
+function saveAsPDF() {
+    const element = document.getElementById('content-to-download'); // Replace with your actual div ID
+
+    if (!element) {
+        alert("Content element not found!");
+        return;
+    }
+
+    const opt = {
+        margin:       0.3,
+        filename:     'Cashflow.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+
     <script>
         var file_size = "2048000";
         var file_types = "png,jpeg,jpg,csv";
@@ -63,6 +88,8 @@ document.getElementById('openReminderModal').addEventListener('click', function(
     </script>
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+      
 
     <script src="assets/js/plugins/simplebar.min.js"></script>
 
@@ -71,6 +98,9 @@ document.getElementById('openReminderModal').addEventListener('click', function(
     { currency: 'USD', rate: '₦1520' },
     { currency: 'EUR', rate: '₦1650' },
     { currency: 'GBP', rate: '₦1930' },
+    { currency: 'YN', rate: '₦1930' },
+    { currency: 'AUSD', rate: '₦1630' },
+    { currency: 'CUSD', rate: '₦1730' },
   ];
 
   let currentRateIndex = 0;
@@ -123,15 +153,13 @@ document.getElementById('openReminderModal').addEventListener('click', function(
   function showToast(message, bgColor = 'bg-success') {
     const toastEl = document.getElementById('liveToast');
     const toastBody = toastEl.querySelector('.toast-body');
-    toastEl.classList.add(bgColor); // e.g., bg-success or bg-danger
+    toastEl.classList.add(bgColor); 
     toastBody.textContent = message;
 
     const toast = new bootstrap.Toast(toastEl);
     toast.show();
   }
 </script>
-
-
     <script>
         $(document).on('click', '#billing_data', function() {
             $("[name='shipping_name']").val($("[name='billing_name']").val());
@@ -144,14 +172,33 @@ document.getElementById('openReminderModal').addEventListener('click', function(
         })
     </script>
 
-    <?php include_once ('layout/charts.php'); ?>
+    <?php include ('layout/charts.php'); ?>
 
     <script>
   window.onload = () => {
     TablerIcons.replace();
   };
 </script>
+<script>
+function toggleIcon(span) {
+    const img = span.querySelector('img');
+    const rightIcon = '../assets/icons/chevron-down.svg';
+    const leftIcon = '../assets/icons/chevron-right.svg';
 
+    // Toggle the icon
+    img.src = img.src.includes('chevron-down.svg') ? leftIcon : rightIcon;
+}
+</script>
+<script>
+function toggleIcons(span) {
+    const img = span.querySelector('img');
+    const rightIcon = '../assets/icons/chevron-down.svg';
+    const leftIcon = '../assets/icons/chevron-expand-y.svg';
+
+    // Toggle the icon
+    img.src = img.src.includes('chevron-down.svg') ? leftIcon : rightIcon;
+}
+</script>
 <script>
   function translateLanguage(lang) {
     const tryTranslate = () => {

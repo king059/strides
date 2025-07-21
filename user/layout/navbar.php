@@ -15,12 +15,12 @@
                     <li class="dash-item ">
 
                         <li class="dash-item  active">
-                            <a href="" class="dash-link"><span class="dash-micon"><i
-                                            class="ti ti-home"></i></span><span class="dash-mtext">Dashboard</span></a>
+                            <a href="dashboard.php" class="dash-link"><span class="dash-micon"><img src="../assets/icons/house-2.svg" alt="Icon" class="icons-color"/></span>
+                            <span class="dash-mtext">Dashboard</span></a>
                         </li>
 
                     </li>
-                    <li class="dash-item dash-hasmenu ">
+                    <!-- <li class="dash-item dash-hasmenu ">
                         <a href="#!" class="dash-link "><span class="dash-micon"><i
                                         class="ti ti-users"></i></span><span
                                     class="dash-mtext">Staff</span>
@@ -34,21 +34,21 @@
                                 <a class="dash-link" href="https://demo.workdo.io/accountgo-saas/roles">Role</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 
 
                     <li class="dash-item  ">
-                        <a href="../user/reminder.php" class="dash-link ">
-                            <span class="dash-micon"><i class="ti ti-shopping-cart"></i></span>
+                        <a href="reminder.php" class="dash-link ">
+                            <span class="dash-micon"><img src="../assets/icons/tasks-2.svg" alt="Icon" class="icons-color"/></span>
                             <span class="dash-mtext">Reminders</span>
                         </a>
                     </li>
 
 
                      <li class="dash-item ">
-                        <a href="https://demo.workdo.io/accountgo-saas/productstock" class="dash-link ">
+                        <a href="#" class="dash-link ">
                             <span class="dash-micon"><i class="ti ti-box"></i></span>
-                            <span class="dash-mtext">Product Stock</span>
+                            <span class="dash-mtext">Salary</span>
                         </a>
                     </li>
 
@@ -78,27 +78,34 @@
  -->
 
 
+                    <li class="dash-item dash-hasmenu ">
+                        <a href="#!" class="dash-link "><span
+                                class="dash-mtext">[if user= FINANCIAL TEAM]</span>
+                        </a>
+                    </li>
+                     <li class="dash-item">
+                        <a href="expense.php" class="dash-link "><span class="dash-micon"><img src="../assets/icons/wallet-2.svg" alt="Icon" class="icons-color"/></span>
+                        <span class="dash-mtext">Expensis</span>
+                        </a>
+                     </li>
 
-                    <!-- <li class="dash-item dash-hasmenu ">
-                        <a href="#!" class="dash-link "><span class="dash-micon"><i
-                                    class="ti ti-file-certificate"></i></span><span
-                                class="dash-mtext">Presale</span>
+                     <li class="dash-item dash-hasmenu ">
+                        <a href="#!" class="dash-link "><span class="dash-micon"><img src="../assets/icons/ordered-list.svg" alt="Icon" class="icons-color"/></span><span
+                                class="dash-mtext">Financial report</span>
                             <span class="dash-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
-                        <ul class="dash-submenu ">
-                            <li class="dash-item ">
-                                <a class="dash-link" href="https://demo.workdo.io/accountgo-saas/proposal">Proposal</a>
-                            </li>
-                            <li class="dash-item ">
-                                <a class="dash-link" href="https://demo.workdo.io/accountgo-saas/retainer">Retainers</a>
-                            </li>
-                        </ul>
-                    </li>
+                     </li>
+
+                     <li class="dash-item">
+                        <a href="upload-doc.php" class="dash-link "><span class="dash-micon"><img src="../assets/icons/file.svg" alt="Icon" class="icons-color"/></span><span
+                                class="dash-mtext">Upload Document</span>
+                        </a>
+                     </li>
 
 
                     <li class="dash-item dash-hasmenu ">
-                        <a href="#!" class="dash-link "><span class="dash-micon"><i
-                                    class="ti ti-building-bank"></i></span><span
+                        <a href="#!" class="dash-link "><span class="dash-micon">
+                            <i class="ti ti-building-bank"></i></span><span
                                 class="dash-mtext">Banking</span>
                             <span class="dash-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
@@ -113,7 +120,7 @@
                     </li>
 
 
-                    <li class="dash-item dash-hasmenu ">
+                    <!--<li class="dash-item dash-hasmenu ">
                         <a href="#!" class="dash-link "><span class="dash-micon"><i
                                     class="ti ti-file-invoice"></i></span><span
                                 class="dash-mtext">Income</span>

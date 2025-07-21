@@ -267,7 +267,7 @@ a {
 
     .sect {
         
-        background-image: url('../image/back-ground.jpg') !important;
+        background-image: url('../image/back-ground.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
